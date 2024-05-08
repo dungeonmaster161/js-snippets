@@ -22,7 +22,7 @@ function addUser(user,cb){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             datas.push(user);
-            const error = true
+            const error = false
             if(error) reject("Reject is called")
             resolve()
         },4000)
